@@ -7,7 +7,7 @@ pip3 install torch==1.9.1+cu111 torchvision==0.10.1+cu111 torchaudio==0.9.1 -f h
     - to train the teacher model: ./teacherTrain/scripts/fewShotFineTune.sh
 
 # Script to compress the neural part of the model
-    - ./fewShotCompress/scripts/compress_CoFi.sh
+    ./fewShotCompress/scripts/compress_CoFi.sh
     
 # Script to prune the vocabulary
     - To select the top-k tokens: ./vocabPrune/scripts/extractStudentVocab.sh
