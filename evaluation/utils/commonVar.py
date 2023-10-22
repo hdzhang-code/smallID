@@ -1,0 +1,59 @@
+# embedding name
+LM_NAME_FASTTEXT="fasttext"
+LM_NAME_BERT_BASE_UNCASED='bert-base-uncased'
+
+# debug level
+LOGGING_LEVEL_CRITICAL="CRITICAL"
+LOGGING_LEVEL_ERROR="ERROR"
+LOGGING_LEVEL_WARNING="WARNING"
+LOGGING_LEVEL_INFO="INFO"
+LOGGING_LEVEL_DEBUG="DEBUG"
+LOGGING_LEVEL_NOTSET="NOTSET"
+
+# dir and file name
+FILE_NAME_DATASET = "dataset.json"
+FILE_NAME_DATASET_TRAIN = "dataset_train.json"
+FILE_NAME_DATASET_DEV   = "dataset_dev.json"
+FILE_NAME_DATASET_TEST  = "dataset_test.json"
+
+# meta-task information
+META_TASK_GLB_LABID            = "META_TASK_GLB_LABID"
+META_TASK_SHOT_GLB_LABID       = "META_TASK_SHOT_GLB_LABID"
+META_TASK_SHOT_LOC_LABID       = "META_TASK_SHOT_LOC_LABID"
+META_TASK_SHOT_DATAIND         = "META_TASK_SHOT_DATAIND"
+META_TASK_SHOT_TOKEN           = "META_TASK_SHOT_TOKEN"
+META_TASK_SHOT_LAB             = "META_TASK_SHOT_LAB"
+META_TASK_QUERY_GLB_LABID      = "META_TASK_QUERY_GLB_LABID"
+META_TASK_QUERY_LOC_LABID      = "META_TASK_QUERY_LOC_LABID"
+META_TASK_QUERY_DATAIND        = "META_TASK_QUERY_DATAIND"
+META_TASK_QUERY_TOKEN          = "META_TASK_QUERY_TOKEN"
+META_TASK_QUERY_LAB            = "META_TASK_QUERY_LAB"
+
+# classifier name for validation and evaluation, meta-evaluation
+CLSFIER_LINEAR_REGRESSION = "Linear"
+CLSFIER_SVM               = "SVM"
+CLSFIER_NN                = "NN"
+CLSFIER_COSINE            = "Cosine"
+CLSFIER_MULTI_LABEL        = "MultiLabel"
+
+# optmizer name
+OPTER_ADAM = "Adam"
+OPTER_SGD  = "SGD"
+
+# path
+SAVE_PATH = './saved_models'
+DATA_PATH = '../data'
+SAVE_STATE_DICT_FILE_NAME = 'save_state_dict_file.pth'
+
+# saved model files
+SAVE_MODEL_LINEAR_CLASSIFER_PARAM_FILE = 'lc_param.pt'
+
+# dataset
+DATASET_MODE_ALL       = 'dataset_mode_all'
+DATASET_MODE_PARTITION = 'dataset_mode_partition'
+DATASET_MODE_PARTITION_MERGE_INTO_TEST = 'dataset_mode_partition_merge_into_test'
+
+# pca vocabulary
+VOCAB_PCA_PARAM           = 'vocab_pca_param'
+VOCAB_EMBEDDING_LOWER_DIM = 'embeddingNumpyLowerDim'
+VOCAB_PCA_TOKEN_LIST      = 'vocab_pca_token_list'
